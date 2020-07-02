@@ -15,10 +15,11 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <img src="/img/finesse banner.png">
-
-  </img>
-)
+    <body>
+      <img src="/img/finesse banner.png"></img>
+      <img src="/img/finesse banner.png"></img>
+    </body>
+  )
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
