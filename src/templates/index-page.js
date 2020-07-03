@@ -18,6 +18,7 @@ export const IndexPageTemplate = ({
     <body>
       <img src="/img/finesse banner.png"></img>
       <img src="/img/finesse banner.png"></img>
+      <img src="/img/finesse banner.png"></img>
     </body>
   )
 
