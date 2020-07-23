@@ -6,6 +6,7 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
+import tiktok from '../img/social/tiktok.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -104,10 +105,10 @@ const Navbar = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="tiktok" href="https://vimeo.com">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={tiktok}
+                    alt="TikTok"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
