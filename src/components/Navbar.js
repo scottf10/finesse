@@ -7,6 +7,7 @@ import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
 import tiktok from '../img/social/tiktok.png'
+import youtube from '../img/social/youtube.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -83,6 +84,13 @@ const Navbar = class extends React.Component {
             </div> */}
 
             <div className="column is-4 social navbar-end has-text-centered">
+            <a title="youtube" href="https://www.youtube.com/channel/UCK0lmoPVYQbXXi-O0n4r9eg/">
+                <img
+                  src={youtube}
+                  alt="Youtube"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              </a>
               <a title="instagram" href="https://www.instagram.com/scottflo/">
                 <img
                   src={instagram}
